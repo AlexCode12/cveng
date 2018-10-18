@@ -1,0 +1,30 @@
+<style>
+img {
+    border-radius: 50%;
+}
+main {
+	width:80%;
+	margin-left: 20%;
+	border-left: 1px solid black;
+}
+aside {
+	width:20%;
+	float:left;
+}
+
+.container {
+  width: 10%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 5px;
+  color: white;
+}
+
+.swe {width: 100%; background-color: #4CAF50;}
+.eng {width: 80%; background-color: #2196F3;}
+.esp {width: 40%; background-color: #f44336;}
+</style>
+
