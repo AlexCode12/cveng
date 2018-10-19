@@ -1,22 +1,41 @@
-	<style>
-p {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Roboto Slab', serif;
+body {
+	background-image: url("./bilder/bakgrund1.jpg");
+  background-color: #cccccc;
+  height: 1050px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
+li, p {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h3 {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
 img {
-    border-radius: 80%;
+	border-radius: 50%
 }
 
 main {
-	width:70%;
-	margin-left: 20%;
-	border-left: 1px solid black;
+	width:100%;
+	margin-left: 0%;
 }
 aside {
-	width:20%;
-	float:left;
+		text-align:center;
+		width: 50%;
+		float: left;
+		
 }
-
+section {
+	width: 50%;
+	margin-left: 50%;
+}
 .checked {
     color: orange;
 }
@@ -28,16 +47,15 @@ aside {
 
 .skills {
   text-align: right;
-  padding: 5px;
+  padding: 2px;
   color: white;
 }
 
 .swe {width: 100%; background-color: #4CAF50;}
-.eng {width: 80%; background-color: #2196F3;}
+.eng {width: 80%; background-color: #2196F3;} 
 .esp {width: 40%; background-color: #f44336;}
 .java{width: 75%; background-color: #a00000;}
 .html{width: 85%; background-color: #d00000;}
 .css {width: 70%; background-color: #f00000;}
 .cpp {width: 70%; background-color: #100000;}
 .csp {width: 90%; background-color: #600000;}
-</style>
