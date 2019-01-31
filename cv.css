@@ -8,12 +8,18 @@ body {
   position: relative;
 }
 
-li, p {
+p {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 }
 
-h1, h3 {
+li {
+	list-style: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
 	color: white;
 	font-family: 'Roboto Slab', serif;
 }
